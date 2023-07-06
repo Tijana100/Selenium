@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: PerformanseTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in PerformanseTest
+PerformanseTest  Time elapsed: 0.039 s  <<< ERROR!
+org.junit.platform.commons.JUnitException: @AfterAll method 'public void PerformanseTest.tearDown()' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).
+
